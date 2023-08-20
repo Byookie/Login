@@ -1,7 +1,6 @@
 import { IoMdContact } from "react-icons/io";
-import { GiDialPadlock } from "react-icons/gi";
+import { GiPadlock } from "react-icons/gi";
 import { AiOutlineMail } from "react-icons/ai";
-
 import { Link } from "react-router-dom";
 
 const Signup = () => {
@@ -15,7 +14,7 @@ const Signup = () => {
         </div>
         <div className="px-2 py-5 flex items-center flex-col">
           <div className="w-[300px] h-12 rounded flex justify-center items-center ">
-            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[32px] text-white ">
+            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[24px] text-white ">
               <IoMdContact />
             </div>
             <input
@@ -24,7 +23,7 @@ const Signup = () => {
             />
           </div>
           <div className="w-[300px] h-12 mt-2 rounded flex justify-center items-center ">
-            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[32px] text-white ">
+            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[20px] text-white ">
               <AiOutlineMail />
             </div>
             <input
@@ -33,8 +32,8 @@ const Signup = () => {
             />
           </div>
           <div className="w-[300px] h-12 mt-2 rounded flex justify-center items-center ">
-            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[32px] text-white ">
-              <GiDialPadlock />
+            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[24px] text-white ">
+              <GiPadlock />
             </div>
             <input
               className="h-10 w-[240px] border rounded pl-3"
@@ -50,7 +49,7 @@ const Signup = () => {
               <div>Already a member?</div>
               <Link to="/">
                 <div className="ml-1 text-teal-600 hover:scale-[1.05] transition-all ">
-                  Sign-in now
+                  Login now
                 </div>
               </Link>
             </div>

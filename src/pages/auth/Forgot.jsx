@@ -13,7 +13,7 @@ const Forgot = () => {
         </div>
         <div className="px-2 py-5 flex items-center flex-col ">
           <div className="w-[300px] h-12 rounded flex justify-center items-center ">
-            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[32px] text-white ">
+            <div className="w-10 h-10 rounded bg-teal-600 flex justify-center items-center text-[24px] text-white ">
               <IoMdContact />
             </div>
             <input
