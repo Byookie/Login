@@ -43,7 +43,7 @@ const Login = () => {
 
               <Link to="/signup">
                 <div className="ml-1 text-teal-600 hover:scale-[1.05] transition-all ">
-                  Signup now
+                  Sign-up now
                 </div>
               </Link>
             </div>

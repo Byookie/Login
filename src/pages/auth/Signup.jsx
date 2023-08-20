@@ -47,10 +47,10 @@ const Signup = () => {
               Signup
             </button>
             <div className="flex justify-center items-center mt-3 hover:cursor-pointer ">
-              <div>Not a member?</div>
+              <div>Already a member?</div>
               <Link to="/">
                 <div className="ml-1 text-teal-600 hover:scale-[1.05] transition-all ">
-                  Signup now
+                  Sign-in now
                 </div>
               </Link>
             </div>
